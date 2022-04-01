@@ -1,0 +1,105 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+ document.querySelectorAll('.notes-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up')); 
+    });
+ });
+
+ document.querySelectorAll('.weed-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up'));
+    });
+ });
+
+ document.querySelectorAll('.recordstore-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up'));
+    });
+ });
+
+ document.querySelectorAll('.fbp-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up'));
+    });
+ });
+
+ document.querySelectorAll('.mr-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up'));
+    });
+ });
+
+ document.querySelectorAll('.gwip-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.remove('up'));
+    });
+ });
+
+ document.querySelectorAll('.awip-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.awip-div').forEach(target => target.classList.add('up'));
+    document.querySelectorAll('.weed-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.recordstore-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.fbp-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.mr-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.remove('up'));
+    document.querySelectorAll('.notes-div').forEach(target => target.classList.remove('up')); 
+    });
+ });
+
+ document.querySelectorAll('.ggfolder-div').forEach(trigger => {
+  trigger.addEventListener('mousedown', function(){ 
+    document.querySelectorAll('.gwip-div').forEach(target => target.classList.add('up')); 
+    });
+ });
+ 
+ document.querySelectorAll('.original-toggle').forEach(trigger => {
+  trigger.addEventListener('click', function(){ 
+    document.querySelectorAll('.hc-application').forEach(target => target.classList.add('show')); 
+    });
+ });
+ 
+ document.querySelectorAll('.hidden-button-toggle').forEach(trigger => {
+  trigger.addEventListener('click', function(){ 
+    document.querySelectorAll('.hc-application').forEach(target => target.classList.remove('show')); 
+    });
+ });
+});
+</script>
